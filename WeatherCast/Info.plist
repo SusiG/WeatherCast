@@ -4,6 +4,11 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -60,5 +65,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Need to access your location to show your current location weather</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Need to access your location to show your current location weather</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Need to access your location to show your current location weather</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need to access your location to show your current location weather</string>
 </dict>
 </plist>
